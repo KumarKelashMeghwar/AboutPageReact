@@ -1,0 +1,86 @@
+.body {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background-color: whitesmoke;
+  height: 99.1vh;
+}
+
+.Title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  margin-top: -10px;
+}
+
+.nav {
+  background-color: grey;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 0;
+  margin-top: -25px;
+  border-radius: 2px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: white;
+  padding: 10px;
+}
+
+.main {
+  background-color: white;
+  max-width: 1600px;
+  border: 1.5px solid;
+  width: 15%;
+  margin: auto;
+  padding: 25px 0px 55px 0;
+  border-radius: 3px;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  font-size: 15px;
+  margin: 0px 0px 10px 10px;
+}
+
+.form input[type="text"] {
+  margin-bottom: 10px;
+}
+
+.form-body {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  margin-right: 25px;
+}
+
+.form-link {
+  margin-right: 45px;
+}
+.form-body input {
+  margin: 0px 12.5px 0px 0px;
+}
+
+.form-body input[type="submit"] {
+  border: 0;
+  border-radius: 4px;
+  background-color: rgb(0, 121, 193);
+  color: white;
+  margin-top: 30px;
+  width: 60%;
+  height: 33px;
+}
